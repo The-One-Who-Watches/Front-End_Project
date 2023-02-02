@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(94, 121, 211, 0.35),
+      rgba(19, 8, 80, 0.35)
+    ),
+    url(/img/brett-frigo-uGP0Z9V_VLM-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 4.6rem;
+  transition: all 0.3s;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(100, 131, 231, 0.5);
+  padding: 3.6rem;
+  color: #fff;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 5rem;
+  justify-content: space-between;
+}
+.nav-list li {
+  font-size: 1.5rem;
+  padding: 2rem;
+  background-color: black;
+  border-radius: 15px;
+  transition: all 0.3s;
+}
+
+.nav-list li:hover {
+  color: black;
+  background-color: #fff;
+}
+
+.nav-btn {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 25px;
+}
+
+.section-hero {
+  padding: 1.5rem;
+}
+
+.section-why {
+  padding: 1.5rem;
+}
+
+.section-cta {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.primary-heading {
+  font-size: 3.6rem;
+  padding: 4rem;
+  margin-bottom: 1.8rem;
+}
+
+.secondary-heading {
+  font-size: 2.8rem;
+  padding: 4rem;
+  margin-bottom: 1.8rem;
+}
+
+.body-text {
+  font-size: 1.8rem;
+  padding: 2.6rem;
+}
+
+.fine-print {
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.801);
+  text-align: center;
+}
+
+.reasons-list {
+  font-size: 1.2rem;
+  list-style: none;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Horoscope</title>
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <h1>Brown & Co. Time Travel</h1>
+      <ul class="nav-list">
+        <li><a href="#" class="nav-btn">Main</a></li>
+        <li><a href="#" class="nav-btn">Why use us</a></li>
+        <li><a href="#" class="nav-btn">Sign up today</a></li>
+      </ul>
+    </nav>
+    <main id="main" hidden>
+      <div class="section-hero container">
+        <h1 class="primary-heading">Go Anywhere, Anywhen, with Brown & Co.</h1>
+        <p class="body-text">
+          Thanks to Brown & Co.'s patented Time Travel Technology you can book a
+          flight absolutely everywhere in space and Time*
+        </p>
+        <p class="fine-print">
+          *Restrictions apply, certain destinations may be denied at the
+          disgression of Brown & Co.
+        </p>
+      </div>
+
+      <div class="section-why container">
+        <div class="secondary-heading">Why should you use Brown & Co.?</div>
+        <ul class="reasons-list">
+          <li>Our Time Travel services are the cheapest on the market</li>
+          <li>
+            We offer comprehensive saftey features, no need to worry about
+            butterflies
+          </li>
+          <li>
+            No addtional charge or restrictions on visiting family or major
+            events
+          </li>
+        </ul>
+      </div>
+
+      <div class="section-cta container">
+        <div class="form-container">
+          <form action="call-to-action" class="cta-form" id="cta-form">
+            <div>
+              <label for="name">Full Name</label>
+              <input
+                type="text"
+                name="name"
+                placeholder="John Smith"
+                id="name-input"
+              />
+            </div>
+            <div>
+              <label for="date">Where would you like to go?</label>
+              <input type="date" name="date" id="date-input" />
+            </div>
+            <button type="submit" id="submit-btn">Submit</button>
+          </form>
+        </div>
+        <div class="form-reponse">
+          <p class="form-text" id="form-text"></p>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
