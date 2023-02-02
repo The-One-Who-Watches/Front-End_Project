@@ -17,7 +17,7 @@ function testFunct(e) {
   userName = e.srcElement[0].value;
   birthDate = e.srcElement[1].value;
   alert(
-    `So sorry ${userName}, trips from ${currentYear} to ${birthDate} are not currently available, please come back later`
+    `So sorry ${userName}, trips from your current date to ${birthDate} are not currently available, please come back later`
   );
 }
 
